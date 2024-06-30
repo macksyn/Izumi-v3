@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: IZUMI-V3
+    name: NEPTUNE-V3
     env: node
     branch: main
-    repo: https://github.com/sataniceypz/Izumi-v3.git
+    repo: https://github.com/macksyn/Izumi-v3.git
     buildCommand: npm install
     startCommand: npm start
     plan: free
